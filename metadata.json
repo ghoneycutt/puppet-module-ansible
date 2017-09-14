@@ -1,0 +1,47 @@
+{
+  "name": "ghoneycutt-ansible",
+  "version": "0.1.0",
+  "author": "ghoneycutt",
+  "summary": "Manage Ansible",
+  "description": "Manage Ansible client",
+  "license": "Apache-2.0",
+  "source": "git://github.com/ghoneycutt/puppet-module-ansible.git",
+  "project_page": "https://github.com/ghoneycutt/puppet-module-ansible",
+  "issues_url": "https://github.com/ghoneycutt/puppet-module-ansible/issues",
+  "requirements": [
+    {"name":"puppet","version_requirement":">= 4.0.0 < 6.0.0"}
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.16.0 < 6.0.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
